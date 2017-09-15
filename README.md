@@ -4,7 +4,6 @@
 
 	- Replace database credentials in config.php and ValidateUser.php
 	- Replace the responseURL in dashboard.php to the path of fetch.php
-	- Replace the href attribute to the links you want in fetch.php
 	- Database implementation is stored in db.sql
 
 ## Screenshots:
