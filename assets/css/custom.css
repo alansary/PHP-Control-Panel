@@ -1,0 +1,99 @@
+/* Start Main Rules */
+
+body {
+	background-color: #fff;
+	font-size: 16px;
+}
+
+/* End Main Rules */
+
+/* Start Login Form */
+
+.login {
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login h4 {
+	color: #888;
+}
+
+.login input {
+	margin-bottom: 10px;
+}
+
+.login .form-control {
+	background-color: #EAEAEA;
+}
+
+.login .btn {
+	background-color: #008dde;
+}
+
+/* End Login Form */
+
+/* Start Alert And Success */
+
+.alert {
+	margin-top: 20px;
+}
+
+.danger {
+	margin-top: 20px;
+}
+
+/* End Alert And Success */
+
+/* Start navbar */
+
+nav {
+	margin-top: 25px;
+}
+
+.nav > li > a , .navbar-brand {
+	padding: 15px 12px;
+}
+
+/* End navbar */
+
+/* Start Form Control */
+
+.form-control {
+	position: relative;
+}
+
+/* End Form Control */
+
+/* Start Asterisk */
+
+.asterisk {
+	position: absolute;
+	right: 30px;
+	font-size: 30px;
+	top: 4px;
+	color: #D20707;
+}
+
+/* End Asterisk */
+
+/* Start Users Table */
+
+.users-table thead tr th,
+.categories-table thead tr th,
+.products-table thead tr th {
+	background-color: #863359;
+	color: #FFF;
+	text-align: center;
+}
+
+/* End Users Table */
+
+/* Start Show Pass */
+
+.show-pass {
+	position: absolute;
+	top: 3px;
+	right: -30px;
+}
+
+/* End Show Pass */
