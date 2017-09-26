@@ -1,9 +1,10 @@
 # PHP-Control-Panel
+
+## Security Concern:
 	- To implement a secure remember-me functionality, check those answers:
 		- https://stackoverflow.com/questions/3128985/php-login-system-remember-me-persistent-cookie
 		- https://stackoverflow.com/questions/1354999/keep-me-logged-in-the-best-approach
 	- Never ever save user details in the stored cookie, use a random token instead
-## Security Concern:
 
 ## Notes:
 
