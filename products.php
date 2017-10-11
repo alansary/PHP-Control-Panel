@@ -299,8 +299,10 @@
 		 		$imageType = $_FILES['image']['type'];
 
 		 		$imageAllowedExtensions = array('jpeg', 'jpg', 'png', 'gif');
-
-		 		$imageExtension = strtolower(end(explode('.', $imageName)));
+				
+				$imageExtension = explode('.', $imageName);
+				$imageExtension = end($imageExtension);
+				$imageExtension = strtolower($imageExtension);
 
 		 		if (!empty($imageName) && !in_array($imageExtension, $imageAllowedExtensions)) {
 		 			$_SESSION['updateError'] = "ERROR: EXTENSION IS NOT ALLOWED, PLEASE UPLOAD A VALID IMAGE";
@@ -488,7 +490,9 @@
 
 	 		$imageAllowedExtensions = array('jpeg', 'jpg', 'png', 'gif');
 
-	 		$imageExtension = strtolower(end(explode('.', $imageName)));
+			$imageExtension = explode('.', $imageName);
+			$imageExtension = end($imageExtension);
+			$imageExtension = strtolower($imageExtension);
 
 	 		if (!empty($imageName) && !in_array($imageExtension, $imageAllowedExtensions)) {
 	 			$_SESSION['updateError'] = "ERROR: EXTENSION IS NOT ALLOWED, PLEASE UPLOAD A VALID IMAGE";
